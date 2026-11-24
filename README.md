@@ -33,3 +33,4 @@ where email = 'ba@example.com';
 ## Deploy Vercel
 
 Thêm `SUPABASE_URL` và `SUPABASE_ANON_KEY` vào Project Settings > Environment Variables, rồi deploy.
+# ies

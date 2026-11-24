@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SecurityGuard } from "@/components/security-guard";
+import { TrackingScripts } from "@/components/landing/tracking-scripts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="bg-surface font-body text-ink antialiased">
         <SecurityGuard />
+        <TrackingScripts />
         {children}
       </body>
     </html>

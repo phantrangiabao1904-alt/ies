@@ -63,7 +63,7 @@ export function SiteFooter() {
               Để lại số điện thoại, cán bộ tư vấn tuyển sinh IES sẽ gọi lại giải đáp thông tin miễn phí trong ngày.
             </p>
             <Link
-              href="/dang-ky"
+              href="/#dang-ky"
               className="inline-flex w-full items-center justify-center rounded-lg bg-cta px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-cta-hover"
             >
               Đăng ký tư vấn

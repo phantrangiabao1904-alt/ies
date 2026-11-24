@@ -39,7 +39,7 @@ export function SiteHeader({ active }: { active?: string }) {
         </nav>
         <div className="flex items-center gap-2">
           <Link
-            href="/dang-ky"
+            href="/#dang-ky"
             className="shrink-0 whitespace-nowrap rounded-full bg-cta px-4 py-2.5 text-sm font-semibold tracking-wide text-white shadow-sm transition-colors hover:bg-cta-hover sm:px-6"
           >
             Đăng ký xét tuyển
